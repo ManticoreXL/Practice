@@ -1,5 +1,5 @@
 # Baekjoon
-Linked with !(https://github.com/BaekjoonHub/BaekjoonHub)
+Linked with [BaekjoonHub](https://github.com/BaekjoonHub/BaekjoonHub)
 
 ### My Profile
 - BOJ: https://www.acmicpc.net/user/zip3366
