@@ -1,0 +1,29 @@
+#define _CRT_SECURE_NO_WARNINGS
+#include<iostream>
+#include<string>
+using namespace std;
+
+int factorial(int num)
+{
+	if (num == 0)
+		return 1;
+	
+	int result = 1;
+
+	for (int i = num; i >= 1; i--)
+	{
+		result = result * i;
+	}
+
+	return result;
+}
+
+int main(void)
+{
+	int n, k;
+	cin >> n >> k;
+
+	cout << factorial(n) / (factorial(k) * factorial(n - k));
+
+	return 0;
+}
